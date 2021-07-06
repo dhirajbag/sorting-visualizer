@@ -1,0 +1,9 @@
+export const desc_mergeSort = "Applies Merge Sort on the array. Merge Sort requires O(n) additional space to attain O(nlogn) time complexity. Values from additional array are written to the original array - whenever a bar height is overridden, it will be highlighted.";
+
+export const desc_quickSort = "Applies Quick Sort on the array. First element of subarray is choosen as the pivot - due to which, for reverse sorted array, time complexity is O(n^2). But for a general array it performs very well with O(nlogn) time complexity. Performs in place sorting by repeated swaps. Requires O(1) additional space. Two elements being swapped will be highlighted. In each iteration, after the current pivot is placed at its correct position - it will be highlighted.";
+
+export const desc_randomQuickSort = "Applies Randomized Quick Sort on the array. Overcomes the drawback of general quick sort by choosing the pivot element randomly. Amortized time complexity is O(nlogn) for any type of array. Performs in place sorting by repeated swaps. Requires O(1) additional space. Two elements being swapped will be highlighted. In each iteration, after the current pivot is placed at its correct position - it will be highlighted.";
+
+export const desc_insertSort = "Applies insertion sort on the array. Maintains the first portion of array (highlighted) sorted. Has O(n^2) worst case time complexity. Requires O(1) additional space. In each iteration, INSERTS the next element to its correct position inside the sorted portion - extending the sorted portion by one element. Elements are slided towards right to make room for the new element being inserted. Sliding is implemented by swapping with new element - highlighted.";
+
+export const desc_reset = "Resets the array element values. For each element, chooses a random value between a predefined lower_bound and upper_bound. Does NOT change array size(number of bars).";
